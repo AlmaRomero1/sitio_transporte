@@ -65,3 +65,16 @@ font-family: "Open Sans", sans-serif;
     margin: 0 auto;
     /* background-color: orange; */
  }
+
+ h2{
+    color: #2e64a1;  
+    font-weight: 400;
+ }
+
+ .bienvenidos{
+    width: 75%;
+ }
+
+ .testimonios{
+    width: 25%;
+ }
