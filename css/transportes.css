@@ -164,6 +164,7 @@ font-family: "Open Sans", sans-serif;
 
 .contacto{
    display: flex;
+   gap: 25px;
 }
 
 .contacto div{
@@ -185,6 +186,8 @@ font-size: 14px;
 .formulario p label{
    min-width: 100px;
    background-color: yellow;
+   display: flex;
+   align-items: center;
 }
 
 .formulario p input,
@@ -203,6 +206,12 @@ font-size: 14px;
    height: 150px;
 }
 
+.formulario p:nth-child(4){
+   background-color: orange;
+   align-items: start;
+
+}
+
 .formulario input[type="submit"]{
    background-color: #6da9ed;
    width: auto;
@@ -213,4 +222,10 @@ font-size: 14px;
    position: relative;
    left: 100px;
 }
+
+.formulario input[type="submit"]:hover{
+   background-color: #2e64a1;
+}
+
+
 /* fin contacto */
