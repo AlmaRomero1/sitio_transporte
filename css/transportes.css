@@ -63,15 +63,21 @@ font-family: "Open Sans", sans-serif;
  }
 
  .holder{
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
     /* background-color: orange; */
  }
+
+/* inicio home */
 
  h2{
     color: #2e64a1;  
     font-weight: 400;
  }
+
+.homeimg img{
+   max-width: 100%;
+}
 
  .columnas{
    display: flex;
@@ -207,7 +213,7 @@ font-size: 14px;
 }
 
 .formulario p:nth-child(4){
-   background-color: orange;
+   /* background-color: orange; */
    align-items: start;
 
 }
@@ -227,5 +233,60 @@ font-size: 14px;
    background-color: #2e64a1;
 }
 
-
 /* fin contacto */
+
+/* inicio  @media 550*/
+
+@media screen and (max-width: 550px){
+   .columnas{
+      flex-direction: column;
+   }
+   
+   .bienvenidos,
+   .testimonios{
+      width: 100%;
+   }
+
+   .holder{
+      padding: 0 6px;
+   }
+
+   .personas{
+      flex-wrap: wrap;
+   }
+
+   .persona{
+      width: 47%;
+   }
+   
+   .contacto{
+      flex-direction: column;
+   }
+
+   header .holder{
+      /* background-color: red; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 0 16px 0;
+   }
+
+   header h1{
+      position: static;
+      margin-left: 10px;
+      font-size: 27px;
+   }
+
+   header img{
+      max-width: 80px;
+   }
+}
+
+@media screen and (max-width:320px){
+   nav ul.holder{
+      flex-direction: column;
+      padding: 0;
+   }
+
+}
+   
