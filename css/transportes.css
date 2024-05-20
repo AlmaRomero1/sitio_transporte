@@ -224,7 +224,7 @@ font-size: 14px;
 
 .formulario p label{
    min-width: 100px;
-   background-color: yellow;
+   /* background-color: yellow; */
    display: flex;
    align-items: center;
 }
